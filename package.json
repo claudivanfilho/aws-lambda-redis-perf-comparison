@@ -1,0 +1,19 @@
+{
+  "name": "lambda-redis-performance-test",
+  "version": "1.0.0",
+  "description": "This project conducts a comparative analysis between a Redis database running on an EC2 instance and one deployed in the cloud using Upstash.",
+  "main": "handler.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "bucket": "aws s3api create-bucket --bucket lambda-redis-test-1000 --region us-east-1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ioredis": "^5.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.6.0"
+  }
+}
