@@ -12,6 +12,11 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-20.6.0.tgz#9d7daa855d33d4efec8aea88cd66db1c2f0ebe16"
   integrity sha512-najjVq5KN2vsH2U/xyh2opaSEz6cZMR2SetLIlxlj08nOcmPOemJmUK2o4kUzfLqfrWE0PIrNeE16XhYDd3nqg==
 
+async-ratelimiter@^1.3.11:
+  version "1.3.11"
+  resolved "https://registry.yarnpkg.com/async-ratelimiter/-/async-ratelimiter-1.3.11.tgz#53b6cb1e2786cdfed1d03481d6d723b08d2ea286"
+  integrity sha512-tPWPqfGlS5216Y2abq3eTAOugLMdgnfvuV/nH3NAv/Q8SQVLIv8zgz/Q9eYvLi/F1OBa+RBrWnzVH27sq+1iEA==
+
 cluster-key-slot@^1.1.0:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/cluster-key-slot/-/cluster-key-slot-1.1.2.tgz#88ddaa46906e303b5de30d3153b7d9fe0a0c19ac"
